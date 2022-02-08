@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="action_bar_size">50dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="appbar_padding">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+    <dimen name="bottom_sheet_height">40dp</dimen>
+    <dimen name="login_logo_height">120dp</dimen>
+    <dimen name="login_logo_width">120dp</dimen>
+
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">12sp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">12sp</dimen>
+
+    <dimen name="bottom_navigation_height">43dp</dimen>
+    <dimen name="progress_bar_width">40dp</dimen>
+    <dimen name="progress_bar_height">40dp</dimen>
+
+    <dimen name="test_type_card_elevation">1dp</dimen>
+    <dimen name="test_type_card_corner">2dp</dimen>
+
+    <dimen name="test_type_heading_font_size">18sp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+</resources>

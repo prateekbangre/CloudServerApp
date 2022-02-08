@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        android:paddingHorizontal="21dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+        android:layout_height="match_parent" xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+            android:text="@string/input_dialog"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="4dp"/>
+    <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            tools:text="Upcoming movies (2021)"
+            android:hint="Upcoming movies (2021)"
+            android:ems="10"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:maxLength="150"
+            android:id="@+id/editTextTextPersonName"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="4dp"/>
+    <TextView
+            android:text="A file name can't contain any of the following characters:"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" android:id="@+id/textView6"
+            app:layout_constraintStart_toStartOf="@+id/textView5" app:layout_constraintEnd_toEndOf="@+id/textView5"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" android:layout_marginTop="2dp"/>
+    <TextView
+            android:text="@string/diasslow_char"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView8"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" app:layout_constraintStart_toStartOf="@+id/textView6"
+            app:layout_constraintEnd_toEndOf="@+id/textView6" tools:ignore="ExtraText"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

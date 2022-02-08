@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">CloudServerApp</string>
+
+    <string name="enter_email_address">Enter your email address</string>
+
+    <string name="forget_reset_password">RESET PASSWORD</string>
+
+    <string name="forget_loading_reset_password">Generating password reset request…</string>
+    <string name="forget_info">A verification email link would be sent to your registered email. You can find further
+        instruction there.
+    </string>
+
+
+    <string name="cautions">
+        • The password must contain at least six characters.
+        <br />\n
+        • Don\'t use your original Email account password.
+    </string>
+
+    <string name="email_verification_error">Dear %name%,\nYour account has been created but the email isn\'t verified
+        yet. Please go to your email inbox and check verification link we\'d sent you at the time of registration. You
+        can request a new one if existing link has been expired.
+    </string>
+
+    <string name="forget_email_sent">We\'ve just sent you an email please go and find further instructions there to
+        reset your password.
+    </string>
+
+    <string name="enter_password">Enter password</string>
+
+    <string name="login">Login</string>
+
+    <string name="forget_password">Forget password</string>
+
+    <string name="create">create</string>
+
+    <string name="enter_full_name">Enter full name</string>
+
+    <string name="confirm_password">Confirm password</string>
+
+    <string name="choose_password">Choose password</string>
+
+    <string name="enter_phone_number">Enter phone number (optional)</string>
+
+    <string name="create_a_new_account">Create a new account</string>
+
+    <string name="not_a_member_yet">not a member yet?</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">Welcome To Celestine<br />A Mini Cloud Service</string>
+    <string name="nav_app_ver">App ver 1.0</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_about">About</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_cloud">CloudActivity</string>
+    <string name="action_download">Download</string>
+    <string name="action_delete">Delete</string>
+    <string name="input_dialog">Please enter a directory name to create in the current path. (max 250 characters allowed)</string>
+    <string name="diasslow_char"><![CDATA[" /  : * ? \" < > | "]]></string>
+</resources>
